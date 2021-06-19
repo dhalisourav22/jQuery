@@ -1,4 +1,4 @@
-//changing the existing CSS
+//Changing the existing CSS 
 $("h1").css("color","blue");
 
 //Adding a new CSS
