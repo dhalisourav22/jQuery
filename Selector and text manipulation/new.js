@@ -7,11 +7,11 @@ $(".my-div p , .name").text("This is the demo of multiple element..!");    //Thi
 
 
 
-//text()  -- this is change the document's text(can't use html in this)
+//text()  -- this is change the document's text(can't use html in this).
 let peraWithName = $(".bio");   //we can use this way
 peraWithName.text("This text replaced by text method.");
 
-//html()  -- this is change the document's text(can use html in this)
+//html()  -- this is change the document's text(can use html in this).
 let changingTheExtraPera =$(".extra1");
 changingTheExtraPera.html("<strong>This is bold</strong>");
 
