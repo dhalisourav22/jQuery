@@ -1,0 +1,9 @@
+.style1{
+    background-color: bisque;
+    font-style: italic;
+    color: black;
+    padding: 20px;
+}
+button{
+    background-color: rgb(44, 109, 194); padding: 20px; border-radius: 10px; border: 1px solid black; font-size: 150%; color: blanchedalmond;
+}
