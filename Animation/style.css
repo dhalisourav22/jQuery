@@ -1,0 +1,17 @@
+.myDiv{
+    background-color: rgb(226, 74, 201);
+    padding: 18px;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 600px;
+    text-align: justify;
+}
+button{
+    font-size: 110%;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    background-color: rgb(157, 17, 192);
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
