@@ -1,7 +1,7 @@
 //hide(), show() and toggle().
 
 // $("button").click(()=>{
-//     // $(".myDiv").hide(2000).show(2000);
+//     // $(".myDiv").hide(2000).show(2000);     //This is called jQuery Chaining. Here we can chain multiple action in a single satement.
 //     // $(".myDiv").hide(2000);
 //     // $(".myDiv").show(2000);
 //     // $(".myDiv").toggle(3000);
