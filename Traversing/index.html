@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .ancestors * {
+            display: block;
+            border: 2px solid lightgrey;
+            color: lightgrey;
+            padding: 5px;
+            margin: 15px;
+        }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <div class="ancestors">
+        <div style="width:500px;">div (great-grandparent of p and span | grandparent of li)
+            <ul>ul (grandparent of p and span | direct parent of li)
+                <li class="filt first">li (direct parent of Span)
+                    <span>span</span>
+                    <span>span</span>
+                </li>
+                <li>li</li>
+                <li class="filt">li (direct parent of P)
+                    <p>P</p>
+                </li>
+            </ul>
+        </div>
+
+        <!-- <div style="width:500px;">div (parent)
+            <p>p</p>
+            <span>span</span>
+            <h2>h2</h2>
+            <h2>h2</h2>
+            <h3>h3</h3>
+            <p>p</p>
+        </div> -->
+    </div>
+    <Button>Click Me</Button>
+    <script src="new.js"></script>
+</body>
+</html>
