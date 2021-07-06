@@ -10,7 +10,7 @@ function clearTextArea(){
 }
 
 function calculate(){
-    let result = eval(textArea.val());   //eval is a function which is evaluate everything which is under it.
+    let result = eval(textArea.val());   //eval() is a function which is evaluate everything which is under it.
     textArea.val(result);
 }
 
